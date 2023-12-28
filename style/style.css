@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*before,
+*after {
+  box-sizing: inherit;
+}
+
+.ellipse {
+  display: flex;
+  width: 1087px;
+  height: 831px;
+  flex-shrink: 0;
+  z-index: 0;
+  border-radius: 1087px;
+}
+
+.white-ellipse {
+  background: #FDF8F8;
+  position: absolute;
+  transform: translateX(-50%);
+
+}
+
+.blue-ellipse {
+   
+  background: #B7D2E2;
+}
