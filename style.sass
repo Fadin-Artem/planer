@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*before,
+*after {
+  box-sizing: inherit;
+}
+
+  $blue: B7D2E2;
+  $white: FDF8F8;
+  $purple: E3B7B5;
+  $gray: 4D4D4D;
+  
+  @mixin ellipse($color){
+  display: flex;
+  width: 1087px;
+  height: 831px;
+  flex-shrink: 0;
+  z-index: 0;
+  border-radius: 1087px;
+  color: &color;
+}
+
+@mixin purple-button($color,$border-color:none){
+  width: 245px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  color: $color;
+  border: 3px solid $border-color;
+}
