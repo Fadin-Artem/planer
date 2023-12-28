@@ -7,10 +7,11 @@ html {
   box-sizing: inherit;
 }
 
-  $blue: B7D2E2;
-  $white: FDF8F8;
-  $purple: E3B7B5;
-  $gray: 4D4D4D;
+  $blue: #B7D2E2;
+  $white: #FDF8F8;
+  $purple: #E3B7B5;
+  $gray: #4D4D4D;
+  $large-text-color: #656565;
   
   @mixin ellipse($color){
   display: flex;
@@ -29,4 +30,16 @@ html {
   border-radius: 30px;
   color: $color;
   border: 3px solid $border-color;
+}
+
+@mixin large-text(){
+  
+}
+
+@mixin bold-text(){
+
+}
+
+@mixin thin-text(){
+  
 }
